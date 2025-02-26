@@ -11,12 +11,12 @@
     <style>
 
 body {
-  padding: 5%;
   margin: 0 auto;
   text-align: center;
   font-size: 23px;
   color: pink;
-  background: white;
+  background-color:white;
+
 }
 
 .main {
@@ -24,46 +24,54 @@ body {
 }
 
 a,
-a:visited {
+a:visited  {
   color: MistyRose;
 }
 
 .dark {
-  background: pink;
+  background : pink !important;
 }
 
 .button > .over {
-  text-decoration: overline;
+  text-decoration:overline;
   display: inline-block;
-  position: relative;
+  position:relative;
   top: 3px;
   left: -4px;
 }
 
 .calculator {
-  display: inline-block;
-  background: MistyRose;
-  margin: 1% 0;
-  color: ;
-  border-radius: 5%;
-  border: 3px solid pink;
-  box-shadow: 5px 5px 5px 3px pink;
+  
+    display: inline-block;
+    background: MistyRose;
+    margin: 1% 0;
+    color: black;
+    border-radius: 5%;
+	border: 1px solid pink; */
+    background-color: pink;
+
+  
 }
 
 .calculator button {
-  font-size: x-large;
-  width: 4em;
-  min-height: 3em;
-  margin: 0.8%;
-  border-radius: 25%;
-  border: 1px solid pink;
-  box-shadow: 3px 3px 3px pink;
+  
+    font-size: x-large;
+    color: #3f3f3f;
+    width: 2.5em;
+    min-height: 2.5em;
+    margin: 0.8%;
+    border-radius: 25%;
+    background-color: pink;
+    border: 1px solid pink;
+    font-family: 'MuseoModerno', cursive;
+
 }
+
 
 .calculator button:hover,
 #clear:hover,
 #backspace:hover {
-  background: LightPink;
+  background: LightPink!important;
   color: white;
   transform: scale(0.9);
   border-radius: 20%;
@@ -82,25 +90,31 @@ a:visited {
   transform: scale(0.9);
 }
 
-#screen {
-  background: white;
-  border: 3px solid pink;
-  box-shadow: 3px 3px 3px 3px pink;
-  border-radius: 5%;
-  width: 80%;
-  height: 120px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
-  text-align: right;
-  overflow: auto;
-  overflow-wrap: break-word;
-  font-size: 60px;
+ #screen{
+    background-color: white;
+    border: 3px solid pink;
+    /* box-shadow: 3px 3px 3px 3px grey; */
+    border-radius: 29px;
+    width: 80%;
+    height: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: right;
+    overflow: auto;
+    overflow-wrap: break-word;
+    font-size: 60px;
+    font-family: 'Dosis', sans-serif;
+
 }
+
+    
+
 
 #clean {
   background: salmon;
 }
+
 
 .calculator__row1,
 .calculator__row2,
@@ -109,15 +123,15 @@ a:visited {
 .calculator__row5 {
   display: flex;
   margin: 0 auto;
-  max-width: 80%;
+     max-width: 80%;
   justify-content: space-around;
   align-items: center;
-  font-family: "Libre Barcode 128 Text", cursive;
+  font-family: 'Libre Barcode 128 Text', cursive;
 }
 
 .calculator__row5 {
   margin-bottom: 3%;
-}
+} 
 
 .footer {
   /* margin-top: 2%;
@@ -127,7 +141,6 @@ a:visited {
   right: 0;
   bottom: 0;
 }
-
 
 
     </style>
@@ -141,7 +154,7 @@ a:visited {
     <button class="button">Rad</button>
     <button class="button" >Deg</button>
                                
-    <h1 style="font-size: 200%;margin-left: 230px;margin-right: 20px;">Sakura Notion Calculadora</h1>
+    <h1 style="font-size: 200%;margin-left: 230px;margin-right: 20px;"></h1>
     <button class="button" id="clean">AC</button>
 </div>
     <div class="calculator__row2">
